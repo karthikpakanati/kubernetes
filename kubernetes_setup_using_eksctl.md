@@ -48,8 +48,18 @@ You can follow same procedure in the official  AWS document [Getting started wit
    eksctl create cluster --name valaxy-cluster \
       --region ap-south-1 \
    --node-type t2.small \
-    ```
+   
+   example : 
+   eksctl create cluster --name kubernetes-cluster  \
+--region us-east-1 \
+--node-type t2.small \
 
+    ```
+    kubectl get nodes 
+    eksctl get cluster 
+    elsctl get cluster --region us-east-1
+    kubectl get pods 
+    
 5. To delete the EKS clsuter 
    ```sh 
    eksctl delete cluster valaxy --region ap-south-1
