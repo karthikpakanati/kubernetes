@@ -57,7 +57,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
     ```
     kubectl get nodes 
     eksctl get cluster 
-    elsctl get cluster --region us-east-1
+    eksctl get cluster --region us-east-1
     kubectl get pods 
     
 5. To delete the EKS clsuter 
