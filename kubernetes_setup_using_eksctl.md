@@ -30,7 +30,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
 3. Create an IAM Role and attache it to EC2 instance    
    `Note: create IAM user with programmatic access if your bootstrap system is outside of AWS`   
    IAM user should have access to   
-   IAM   
+   IAM ---> Create new role ---> IAMFullAccess, AWSCloudFormationFullAccess, AmazonVPCFullAccess and AmazonEC2FullAccess (also AdministratorAccess)
    EC2   
    VPC    
    CloudFormation
